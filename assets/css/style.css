@@ -1,8 +1,79 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    font-size: 62.5%; /* 10px divided by 16px*/
+ }
+
+ header{
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start ;
+    gap: 2rem;
+    height: 100vh;
+    background-image:url('../images/hero.jpg') ;
+    background-size: cover;
+    padding-top: 31rem;
+    padding-left: 51rem;
+    /*shorthand*/
+ }
 
 h1 {
-    font-size:3.75rem;
-    font-weight: 700;
-    color: #000;
+    font-size:6rem;
+    font-weight: 900;
+    color: #FFF;
+    font-family: 'Popins';
+}
+
+span{
+    font-family:'Montserrat';
+    font-size: 4.5rem;
+    color: #FFF;
+}
+
+.botao{
+    padding: 14px 11px;
+    background-color: linear-gradient:90deg,#6A3093 0% A044FF 100%;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-size:3rem;
+    color: #FFF;
+    text-shadow
 
 }
+
+section {
+    display: flex;
+    padding: 8.6rem;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+
+h2 {
+
+    font-family:'Montserrat';
+    font-size: 1.5rem;
+    font-size:4.4rem;
+}
+
+p {
+
+    font-family:’Montserrat’;
+    font-size: 3rem;
+    
+}
+
+body {
+    font-family: var(--font-default); 
+}
+
